@@ -1,9 +1,15 @@
 import * as React from 'react'
 import { Router } from './router'
+import { ApolloProvider } from 'react-apollo'
+import { apolloClient } from './apolloGraphql'
 
 class App extends React.Component {
   render() {
-    return <Router />
+    return (
+      <ApolloProvider client={apolloClient}>
+        <Router />
+      </ApolloProvider>
+    )
   }
 }
 
