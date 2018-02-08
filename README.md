@@ -9,6 +9,7 @@ React SPA based on a [typescript version of create-react-app](https://github.com
 * react
 * typescript
 * react-router
+* apollo graphql
 * react components testing: [enzyme](https://github.com/airbnb/enzyme)
 * react components library: [storybook](https://storybook.js.org/)
 
