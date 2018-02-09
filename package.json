@@ -5,6 +5,8 @@
   "dependencies": {
     "apollo-client-preset": "^1.0.6",
     "enzyme": "^3.3.0",
+    "glamor": "^2.20.40",
+    "glamorous": "^4.11.4",
     "graphql": "^0.12.3",
     "graphql-tag": "^2.6.1",
     "react": "^16.2.0",
